@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cd_vehicle_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_10"
+        android:layout_marginRight="@dimen/padding_10"
+        app:cardCornerRadius="@dimen/padding_4"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_tenant_vehicle"
+                    android:layout_width="@dimen/padding_100"
+                    android:layout_height="@dimen/padding_80"
+                    android:src="@drawable/car_icon" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_5"
+                    android:layout_marginRight="@dimen/padding_5"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/tv_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/john_mathew"
+                            android:layout_gravity="left"
+                            android:layout_weight="1"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/font_16" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:id="@+id/imageViewUPhone"
+                            android:src="@drawable/ic_phone"/>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/tv_my_booking_vehicle_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding_5"
+                        android:text="@string/car"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_16" />
+
+                    <TextView
+                        android:id="@+id/tv_my_booking_vehicle_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding_5"
+                        android:text="@string/price"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/font_16"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_my_booking_date_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding_5"
+                        android:layout_marginRight="@dimen/padding_5"
+                        android:layout_marginBottom="@dimen/padding_1"
+                        android:gravity="right"
+                        android:text="@string/date_time"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/font_16" />
+
+                    <LinearLayout
+                        android:id="@+id/layout_accept"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding_10"
+                        android:layout_marginBottom="@dimen/padding_10"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        android:weightSum="2">
+
+                        <Button
+                            android:id="@+id/btn_accept"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/padding_5"
+                            android:layout_marginRight="@dimen/padding_5"
+                            android:layout_weight="1"
+                            android:background="@drawable/accept_btnbg"
+                            android:text="Accept"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white" />
+
+                        <Button
+                            android:id="@+id/btn_reject"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_marginLeft="@dimen/padding_5"
+                            android:layout_marginRight="@dimen/padding_5"
+                            android:layout_weight="1"
+                            android:background="@drawable/reject_btnbg"
+                            android:text="Reject"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--<TextView
+            android:id="@+id/tv_my_booking_vehicle_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/pending_status_background"
+            android:paddingLeft="@dimen/padding_5"
+            android:paddingRight="@dimen/padding_8"
+            android:text="@string/pending"
+            android:textColor="@color/white"
+            android:textSize="@dimen/padding_15" />-->
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.college.owner.ui.home.OwnerDashboardFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_owner_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_add_vehicle"
+        android:name="com.college.owner.ui.addvehicle.AddVehicleFragment"
+        android:label="Add Product"
+        tools:layout="@layout/fragment_add_vehicle" />
+
+    <fragment
+        android:id="@+id/nav_vehicle_request"
+        android:name="com.college.owner.ui.slideshow.VehicleRequestFragment"
+        android:label="New Booking Requests"
+        tools:layout="@layout/fragment_vehicle_request" />
+</navigation>

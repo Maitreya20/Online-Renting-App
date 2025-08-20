@@ -1,0 +1,104 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">E-Rent App</string>
+
+
+    <string name="email">Enter email</string>
+    <string name="password">Enter password</string>
+    <string name="confirm_password">Enter confirm password</string>
+    <string name="address">Enter address</string>
+    <string name="phone">Enter phone number</string>
+    <string name="login">Login</string>
+    <string name="singup">Sign up</string>
+    <string name="create_an_account">Create an account ? </string>
+    <string name="name_error">Please enter name</string>
+    <string name="invalid_email_id">Invalid Email Id</string>
+    <string name="password_six_digit_error">Password must be 6 digits</string>
+    <string name="please_confirm_password">Please confirm the password</string>
+    <string name="phone_no_ten_digit_error">Phone number must be 10 digits</string>
+    <string name="address_error">Please enter address</string>
+    <string name="register_success">Register Successfully</string>
+    <string name="login_success">Login Successfully</string>
+    <string name="vehicle_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus exercitationem fuga id laborum magnam minus omnis quae quam quasi repellat? Blanditiis dignissimos explicabo laborum maiores maxime numquam provident suscipit voluptate? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque culpa, cum harum inventore iure labore modi natus nemo nobis officiis quae quas quo quod rem tenetur ut? Sapiente, suscipit?</string>
+
+    <string name="name">Enter name</string>
+    <string name="description">Enter description</string>
+    <string name="rent">Enter rate</string>
+    <string name="add_vehicle">Add Vehicle</string>
+    <string name="please_fill_details">Please fill all the details</string>
+    <string name="please_enter_name">Please enter name</string>
+    <string name="please_enter_description">Please enter description</string>
+    <string name="please_enter_rate">Please enter rate</string>
+    <string name="details_add_successfully">Details added successfully</string>
+
+    <string name="price">$ 100000</string>
+    <string name="pending">Pending</string>
+    <string name="date_time">30-01-2023 12:30</string>
+    <string name="car">Car</string>
+    <string name="bike">Bike</string>
+    <string name="scooty">Scooty</string>
+    <string name="house">House</string>
+    <string name="owner">Owner</string>
+    <string name="title_activity_owner_dashboard">OwnerDashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Dashboard</string>
+    <string name="logout">Logout</string>
+    <string name="see_vehicle">See vehicle request</string>
+    <string name="title_activity_tenant_dashboard">TenantDashboard</string>
+    <string name="my_booking">My Booking</string>
+    <string name="login_to_continue">Login To Continue</string>
+    <string name="mercedes">Mercedes</string>
+    <string name="filter_string">Filter</string>
+    <string name="place_order">Place order</string>
+    <string name="booking_request">Booking Request</string>
+    <string name="john_mathew">John Mathew</string>
+    <string name="john_gmail_com">john@gmail.com</string>
+    <string name="_9874561230">9874561230</string>
+    <string name="payment_details">Payment Details</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="enter_card_holder_name">Enter card holder name</string>
+    <string name="enter_card_no">Enter card no</string>
+    <string name="enter_cvv">Enter CVV</string>
+
+
+    <string-array name="product_type">
+        <item>Select Type</item>
+        <item>Car</item>
+        <item>Bike</item>
+        <item>Scooty</item>
+        <item>Home</item>
+    </string-array>
+
+    <string-array name="month">
+        <item>Month</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>Year</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+    </string-array>
+
+</resources>

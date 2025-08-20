@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_tenant_dashboard">
+
+    <fragment
+        android:id="@+id/nav_tenant_dashboard"
+        android:name="com.college.tenant.ui.home.TenantDashboardFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_owner_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_my_booking"
+        android:name="com.college.tenant.ui.mybooking.MyBookingFragment"
+        android:label="@string/my_booking"
+        tools:layout="@layout/fragment_my_booking" />
+
+
+</navigation>
