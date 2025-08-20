@@ -12,7 +12,7 @@ An easy-to-use **Android application written in Java** for renting properties an
 
 ## Technology Stack
 
-- **Language:** Java  
+- **Language:** Kotlin 
 - **Platform:** Android (min API level: XX)  
 - **IDE:** Android Studio  
 - **Database:** (e.g., Firebase Realtime Database, SQLite — specify your choice)  
